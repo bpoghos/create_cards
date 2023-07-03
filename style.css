@@ -1,0 +1,64 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.logo{
+    width: 50%;
+    height: 60px;
+}
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+.nav{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+}
+.cards{
+    width: 90%;
+    height: 500px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    padding-left: 16px;
+    background-color: rgb(186, 186, 186);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
